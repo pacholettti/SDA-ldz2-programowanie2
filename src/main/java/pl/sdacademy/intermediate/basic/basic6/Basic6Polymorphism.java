@@ -14,6 +14,7 @@ public class Basic6Polymorphism {
         System.out.println("Moving motorbike " + n + " times faster: " + moveNTimesFast(motorbike, n));
         System.out.println("Moving bicycle " + n + " faster: " + moveNTimesFast(bicycle, n));
         System.out.println("Moving rocket " + n + " faster: " + moveNTimesFast(rocket, n));
+        System.out.println("hello world");
     }
 
     private static int moveNTimesFast(Vehicle vehicle, int times) {
@@ -22,5 +23,6 @@ public class Basic6Polymorphism {
         }
         return vehicle.getSpeed();
     }
+
 
 }
